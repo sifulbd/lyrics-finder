@@ -81,7 +81,7 @@ body{
     right: 30%;
 }
 .footer p {
-    position: absolute;
+    position: fixed;
     right: 0;
     bottom: 0;
 }
