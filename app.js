@@ -1,5 +1,6 @@
 
 // artist song name search input and use search event handler
+
 document.getElementById('search').addEventListener('click',function(evt){
   const songName = document.getElementById('searchBox').value;
   document.getElementById('searchBox').value = '';
@@ -55,6 +56,10 @@ const showLyrics = (data, titleName, artistName) => {
       document.getElementById('song-title').innerHTML = ` ${titleName} lyrics is not found`;
       document.getElementById('lyrics-field').innerHTML ='';
       document.getElementById('lyricId').style.display = 'block';
+      setTimeout(function(){
+        document.getElementById('lyricId').style.display = 'none';
+
+      }, 3000)
   }
   else{
     document.getElementById('song-title').innerHTML = `${titleName} --- ${artistName}`;
