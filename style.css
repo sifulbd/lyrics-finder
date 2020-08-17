@@ -80,3 +80,8 @@ body{
     position: absolute;
     right: 30%;
 }
+.footer p {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
