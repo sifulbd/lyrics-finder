@@ -1,0 +1,82 @@
+body{
+    background-color: #13141b;
+    color: #ffffff;
+    background-image: url(images/bg-image.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top;
+}
+
+.form-control{
+    background-color:rgba(255, 255, 255, 0.2);
+    padding: 22px;
+    border: none;
+    border-radius: 25px;
+}
+.btn{
+    border-radius: 1.5rem;
+    padding: 9px 20px;
+}
+
+.btn-privious{
+    background: rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+}
+.navbar-toggler {
+    border: none;
+}
+.search-box{
+    position: relative;
+}
+.search-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+}
+.single-result{
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+}
+
+.footer{
+    text-align: center;
+    color: #bdbdbd;
+    opacity: 0.8;
+    font-size: 30px;
+}
+
+
+.content-area {
+    position: relative;
+}
+
+.single-lyrics {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding-top: 100px;
+    bottom: 0;
+    background-color: rgb(0 0 0 / 92%);
+    z-index: 2;
+    cursor: pointer;
+}
+
+.close:hover {
+    color: #fff;
+}
+.close {
+    float: right;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff5f52b;
+    text-shadow: 0 1px 0 #fff;
+    opacity: .5;
+    margin-right: 3px;
+    position: absolute;
+    right: 30%;
+}
