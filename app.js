@@ -11,7 +11,7 @@ document.getElementById('search').addEventListener('click',function(evt){
   .catch((error) => {
       const songsList = document.getElementById('songs-list');
       songsList.innerHTML = '';
-      songsList.innerHTML = 'result not found';
+      songsList.innerHTML = `<h2 class="text-danger text-center mb-4">Song not found</h2> `;
   });
   evt.preventDefault();
 })
@@ -20,8 +20,7 @@ const searchResult = data=>{
   const songsList = document.getElementById('songs-list');
   songsList.innerHTML = '';
   for(let i = 0; i < 10; i++){
-  songsList.innerHTML += `
-  
+  songsList.innerHTML += `  
         <div class="search-result col-md-8 mx-auto">
              <div class="single-result row align-items-center my-3 p-3">
                 <div class="col-md-9">
