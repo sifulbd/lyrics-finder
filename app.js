@@ -13,7 +13,7 @@ document.getElementById('search').addEventListener('click',function(evt){
       songsList.innerHTML = '';
       songsList.innerHTML = `<h2 class="text-danger text-center mb-4">Song not found</h2> `;
   });
-  evt.preventDefault();
+  evt.preventDefault(); 
 })
 
 const searchResult = data=>{
